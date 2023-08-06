@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.msgtext {
+  font-size: 0.95rem;
+  color: #111b21;
+}
+.timetick {
+  display: flex;
+  align-self: flex-end;
+  font-size: 0.7rem;
+  color: #667781;
+}
+.timetick > img {
+  margin-left: 5px;
+}

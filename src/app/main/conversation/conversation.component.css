@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 43.6rem;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 36rem;
+  /* background-color: white; */
+}
+.placeholder > img {
+  height: 36rem;
+  width: 100%;
+}

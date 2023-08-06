@@ -1,0 +1,14 @@
+<div class="container">
+  <app-message-header class="header"></app-message-header>
+  <div class="placeholder" *ngIf="!conversationStarted">
+    <img
+      src="https://github.com/AbhiMophare/project-images/blob/main/msg-init.jpg?raw=true"
+      alt=""
+    />
+  </div>
+  <app-message-area
+    class="message-area"
+    *ngIf="conversationStarted"
+  ></app-message-area>
+  <app-footer class="footer"></app-footer>
+</div>
