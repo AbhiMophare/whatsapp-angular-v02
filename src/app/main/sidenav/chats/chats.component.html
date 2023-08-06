@@ -1,19 +1,6 @@
 <div class="container">
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
-  <app-chat></app-chat>
+  <app-chat
+    *ngFor="conversation; of: conversations"
+    [chat-conversation]="conversation"
+  ></app-chat>
 </div>
