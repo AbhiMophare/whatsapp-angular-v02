@@ -12,6 +12,7 @@ export class ChatComponent implements OnInit {
     name: string;
     time: string;
     lastmsg: string;
+    unread: string;
   };
 
   constructor() {}
