@@ -9,6 +9,10 @@
   margin-top: 2px;
   border-bottom: 2px solid #ccc;
 }
+.container:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
 .avatar {
   display: flex;
   justify-content: center;
