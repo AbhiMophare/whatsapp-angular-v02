@@ -1,6 +1,3 @@
 <div class="container">
-  <app-chat
-    *ngFor="conversation; of: conversations"
-    [chat-conversation]="conversation"
-  ></app-chat>
+  <app-chat *ngFor="let con of conversations" [conv]="con"></app-chat>
 </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   standalone: true,
@@ -7,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chat.component.css'],
 })
 export class ChatComponent implements OnInit {
+  @Input() conv: {
+    avatar: String;
+    name: String;
+    time: String;
+    lastmsg: String;
+  };
 
-    
   constructor() {}
 
   ngOnInit() {}
