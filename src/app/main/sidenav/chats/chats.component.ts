@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ChatComponent } from './chat/chat.component';
 
@@ -6,7 +7,7 @@ import { ChatComponent } from './chat/chat.component';
   selector: 'app-chats',
   templateUrl: './chats.component.html',
   styleUrls: ['./chats.component.css'],
-  imports: [ChatComponent],
+  imports: [ChatComponent, CommonModule],
 })
 export class ChatsComponent implements OnInit {
   conversations = [

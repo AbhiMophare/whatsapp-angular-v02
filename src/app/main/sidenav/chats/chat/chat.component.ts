@@ -7,11 +7,11 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./chat.component.css'],
 })
 export class ChatComponent implements OnInit {
-  @Input() conv: {
-    avatar: String;
-    name: String;
-    time: String;
-    lastmsg: String;
+  @Input() conv!: {
+    avatar: string;
+    name: string;
+    time: string;
+    lastmsg: string;
   };
 
   constructor() {}
